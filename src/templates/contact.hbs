@@ -1,0 +1,23 @@
+<section class="section">
+  <div class="container grid-2">
+    <div>
+      <h2>Contact Us</h2>
+      <p class="muted">Have a project in mind? Send us a message and we’ll get back to you shortly.</p>
+      <ul class="contact" style="padding-left:0">
+        <li>📧 admin@gmail.com</li>
+        <li>📞 +917676726481</li>
+        <li>📍 India</li>
+      </ul>
+    </div>
+    <div class="card">
+      <form onsubmit="event.preventDefault(); alert('Thanks! We will reach out.'); this.reset();">
+        <div style="display:grid;gap:12px">
+          <input required placeholder="Your name" style="padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)">
+          <input required type="email" placeholder="Your email" style="padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)">
+          <textarea required placeholder="Tell us about your project" rows="5" style="padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)"></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
